@@ -1,0 +1,50 @@
+
+main .personagem {
+    display: none;
+    height: 100vh;
+}
+
+main .personagem.selecionado {
+    display: block;
+}
+
+
+.conteudo .nome-personagem {
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.conteudo .descricao {   
+    font-family: "Rubik";
+    line-height: 24px;
+}
+
+main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -545px;
+    right: 500px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+.botoes .botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #292929;
+}
+
+.botoes .botao{
+    border:none;
+    background: #000000;
+    border-radius: 70%;
+}
+.botoes .botao img {
+    border-radius: 50%;
+}
+.selecionado2 img{
+  height: 120px;
+  width: 130px;
+}
